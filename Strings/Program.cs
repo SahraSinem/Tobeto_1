@@ -1,8 +1,12 @@
-﻿internal class Program
+﻿using Microsoft.VisualBasic;
+using System.ComponentModel.Design;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
-        // Intro();
+        Intro();
+       
         string sentence = "My name is Engin Demiroğ";
 
         var result = sentence.Length;
@@ -44,5 +48,11 @@
         string city2 = "İstanbul";
         // string result = city + city2;
         Console.WriteLine(String.Format("{0} {1}", city, city2));
+
+        
+
     }
+   
+
+
 }
